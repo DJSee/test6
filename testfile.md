@@ -1,11 +1,11 @@
 
- ## Code Book
+ # Code Book
 
 ### Week 4 Final Project – Getting and Cleaning Data
 ### Data Science Course Offered Through Coursera
 
 
-**1.Merge the training and test data sets into one data set**
+#### 1.Merge the training and test data sets into one data set
 
 The zip file containing the data was downloaded and unzipped. 
 
