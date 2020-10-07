@@ -34,10 +34,10 @@ Variables used in the run_Analysis.R script
 dataDescription - source data description
 dataUrl - URL for zip archive of source data
 
-activityLabels - six activity codes and corresponding activity names
-features - feature names for xTest, xTrain
-subjectTest - test set subject number from 1 to 30
-xTest - test set feature measurements
+* activityLabels - six activity codes and corresponding activity names
+* features - feature names for xTest, xTrain
+* subjectTest - test set subject number from 1 to 30
+* xTest - test set feature measurements
 yTest - test set activity code from 1 to 6
 subjectTrain - train set subject number from 1 to 30
 xTrain - train set feature measurements
