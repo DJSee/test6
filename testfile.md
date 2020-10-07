@@ -6,12 +6,11 @@
 
 
 **1.Merge the training and test data sets into one data set**
+The zip file containing the data was downloaded and unzipped. The files in the resulting directory were read and referenced using descriptive variable names. 
+The subject information, activity labels, and measurements were combined for the test data. *(allTest)*
+The subject information, activity labels, and measurements were combined for the training data. *(allTrain)*
+The test and training data sets were combined together. *(allData)*
 
-The zip file containing the data was downloaded and unzipped. 
-The files in the resulting directory were read and referenced using descriptive variable names. 
-The subject information, activity labels, and measurements were combined for the test data. (allTest)
-The subject information, activity labels, and measurements were combined for the training data. (allTrain)
-The test and training data sets were combined together. (allData)
 
 2.Extract only the measurements on the mean and standard deviation for each measurement
 A new data set was created in which measurement columns only on the mean and standard deviation were chosen by applying the select() function of the dplyr package to (allData) 
