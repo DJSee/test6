@@ -61,41 +61,41 @@ result2 – the final tidy data set with appropriate variable names with means f
 
 
 #### Variables in the final tidy data set
-*subject – the ID of the subject
-*activity – the type of activity performed
-*timeBodyAccelerometerMeanX
-*timeBodyAccelerometerMeanY
-*timeBodyAccelerometerMeanZ
-*timeGravityAccelerometerMeanX
-*timeGravityAccelerometerMeanY
-*timeGravityAccelerometerMeanZ
-*timeBodyAccelerometerJerkMeanX
-*timeBodyAccelerometerJerkMeanY
-*timeBodyAccelerometerJerkMeanZ
-*timeBodyGyroscopeMeanX
-*timeBodyGyroscopeMeanY
-*timeBodyGyroscopeMeanZ
-*timeBodyGyroscopeJerkMeanX
-*timeBodyGyroscopeJerkMeanY
-*timeBodyGyroscopeJerkMeanZ
-*timeBodyAccelerometerMagnitudeMean
-*timeGravityAccelerometerMagnitudeMean
-*timeBodyAccelerometerJerkMagnitudeMean
-*timeBodyGyroscopeMagnitudeMean
-*timeBodyGyroscopeJerkMagnitudeMean
-*frequencyBodyAccelerometerMeanX
-*frequencyBodyAccelerometerMeanY
-*frequencyBodyAccelerometerMeanZ
-*frequencyBodyAccelerometerJerkMeanX
-*frequencyBodyAccelerometerJerkMeanY
-*frequencyBodyAccelerometerJerkMeanZ
-*frequencyBodyGyroscopeMeanX
-*frequencyBodyGyroscopeMeanY
-*frequencyBodyGyroscopeMeanZ
-*frequencyBodyAccelerometerMagnitudeMean
-*frequencyBodyBodyAccelerometerJerkMagnitudeMean
-*frequencyBodyBodyGyroscopeMagnitudeMean
-*frequencyBodyBodyGyroscopeJerkMagnitudeMean
+* subject – the ID of the subject
+* activity – the type of activity performed
+* timeBodyAccelerometerMeanX
+* timeBodyAccelerometerMeanY
+* timeBodyAccelerometerMeanZ
+* timeGravityAccelerometerMeanX
+* timeGravityAccelerometerMeanY
+* timeGravityAccelerometerMeanZ
+* timeBodyAccelerometerJerkMeanX
+* timeBodyAccelerometerJerkMeanY
+* timeBodyAccelerometerJerkMeanZ
+* timeBodyGyroscopeMeanX
+* timeBodyGyroscopeMeanY
+* timeBodyGyroscopeMeanZ
+* timeBodyGyroscopeJerkMeanX
+* timeBodyGyroscopeJerkMeanY
+* timeBodyGyroscopeJerkMeanZ
+* timeBodyAccelerometerMagnitudeMean
+* timeGravityAccelerometerMagnitudeMean
+* timeBodyAccelerometerJerkMagnitudeMean
+* timeBodyGyroscopeMagnitudeMean
+* timeBodyGyroscopeJerkMagnitudeMean
+* frequencyBodyAccelerometerMeanX
+* frequencyBodyAccelerometerMeanY
+* frequencyBodyAccelerometerMeanZ
+* frequencyBodyAccelerometerJerkMeanX
+* frequencyBodyAccelerometerJerkMeanY
+* frequencyBodyAccelerometerJerkMeanZ
+* frequencyBodyGyroscopeMeanX
+* frequencyBodyGyroscopeMeanY
+* frequencyBodyGyroscopeMeanZ
+* frequencyBodyAccelerometerMagnitudeMean
+* frequencyBodyBodyAccelerometerJerkMagnitudeMean
+* frequencyBodyBodyGyroscopeMagnitudeMean
+* frequencyBodyBodyGyroscopeJerkMagnitudeMean
 timeBodyAccelerometerStdX
 timeBodyAccelerometerStdY
 timeBodyAccelerometerStdZ
