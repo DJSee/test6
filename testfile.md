@@ -6,6 +6,7 @@
 
 
 **1.Merge the training and test data sets into one data set**
+
 The zip file containing the data was downloaded and unzipped. The files in the resulting directory were read and referenced using descriptive variable names. 
 The subject information, activity labels, and measurements were combined for the test data. *(allTest)*
 The subject information, activity labels, and measurements were combined for the training data. *(allTrain)*
