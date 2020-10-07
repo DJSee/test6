@@ -40,7 +40,7 @@ Finally, the *(subjectId)* and *(activityId)* columns had to be recombined with 
 
 
 #### Variables used in the run_Analysis.R script
-dataDescription - source data description. 
+dataDescription - source data description  
 dataUrl - URL for zip archive of source data  
 
 activityLabels - six activity codes and corresponding activity names  
