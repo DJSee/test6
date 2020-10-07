@@ -10,7 +10,7 @@ The data can be found at https://d396qusza40orc.cloudfront.net/getdata%2Fproject
 A description of the data can be found at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 #### Project Files
-Data Processing Script: run_analysis.R. 
+Data Processing Script: run_analysis.R  
 run_analysis.R reads several data sets and then combines them into one data set.  
 The data set is then reduced to include only measurements pertaining to means or standard deviations.  
 The script groups the data by subject and activity and calculates the mean.  
