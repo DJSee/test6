@@ -59,42 +59,43 @@ splitData – allDataMSD split by subjectId and activityDescription variables
 result – the matrix with the column means for each measurement by subject and activity   
 result2 – the final tidy data set with appropriate variable names with means for each measurement for each subject for each activity
 
-Variables in the final tidy data set
-subject – the ID of the subject
-activity – the type of activity performed
-timeBodyAccelerometerMeanX
-timeBodyAccelerometerMeanY
-timeBodyAccelerometerMeanZ
-timeGravityAccelerometerMeanX
-timeGravityAccelerometerMeanY
-timeGravityAccelerometerMeanZ
-timeBodyAccelerometerJerkMeanX
-timeBodyAccelerometerJerkMeanY
-timeBodyAccelerometerJerkMeanZ
-timeBodyGyroscopeMeanX
-timeBodyGyroscopeMeanY
-timeBodyGyroscopeMeanZ
-timeBodyGyroscopeJerkMeanX
-timeBodyGyroscopeJerkMeanY
-timeBodyGyroscopeJerkMeanZ
-timeBodyAccelerometerMagnitudeMean
-timeGravityAccelerometerMagnitudeMean
-timeBodyAccelerometerJerkMagnitudeMean
-timeBodyGyroscopeMagnitudeMean
-timeBodyGyroscopeJerkMagnitudeMean
-frequencyBodyAccelerometerMeanX
-frequencyBodyAccelerometerMeanY
-frequencyBodyAccelerometerMeanZ
-frequencyBodyAccelerometerJerkMeanX
-frequencyBodyAccelerometerJerkMeanY
-frequencyBodyAccelerometerJerkMeanZ
-frequencyBodyGyroscopeMeanX
-frequencyBodyGyroscopeMeanY
-frequencyBodyGyroscopeMeanZ
-frequencyBodyAccelerometerMagnitudeMean
-frequencyBodyBodyAccelerometerJerkMagnitudeMean
-frequencyBodyBodyGyroscopeMagnitudeMean
-frequencyBodyBodyGyroscopeJerkMagnitudeMean
+
+#### Variables in the final tidy data set
+*subject – the ID of the subject
+*activity – the type of activity performed
+*timeBodyAccelerometerMeanX
+*timeBodyAccelerometerMeanY
+*timeBodyAccelerometerMeanZ
+*timeGravityAccelerometerMeanX
+*timeGravityAccelerometerMeanY
+*timeGravityAccelerometerMeanZ
+*timeBodyAccelerometerJerkMeanX
+*timeBodyAccelerometerJerkMeanY
+*timeBodyAccelerometerJerkMeanZ
+*timeBodyGyroscopeMeanX
+*timeBodyGyroscopeMeanY
+*timeBodyGyroscopeMeanZ
+*timeBodyGyroscopeJerkMeanX
+*timeBodyGyroscopeJerkMeanY
+*timeBodyGyroscopeJerkMeanZ
+*timeBodyAccelerometerMagnitudeMean
+*timeGravityAccelerometerMagnitudeMean
+*timeBodyAccelerometerJerkMagnitudeMean
+*timeBodyGyroscopeMagnitudeMean
+*timeBodyGyroscopeJerkMagnitudeMean
+*frequencyBodyAccelerometerMeanX
+*frequencyBodyAccelerometerMeanY
+*frequencyBodyAccelerometerMeanZ
+*frequencyBodyAccelerometerJerkMeanX
+*frequencyBodyAccelerometerJerkMeanY
+*frequencyBodyAccelerometerJerkMeanZ
+*frequencyBodyGyroscopeMeanX
+*frequencyBodyGyroscopeMeanY
+*frequencyBodyGyroscopeMeanZ
+*frequencyBodyAccelerometerMagnitudeMean
+*frequencyBodyBodyAccelerometerJerkMagnitudeMean
+*frequencyBodyBodyGyroscopeMagnitudeMean
+*frequencyBodyBodyGyroscopeJerkMagnitudeMean
 timeBodyAccelerometerStdX
 timeBodyAccelerometerStdY
 timeBodyAccelerometerStdZ
