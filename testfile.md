@@ -39,24 +39,24 @@ Finally, the *(subjectId)* and *(activityId)* columns had to be recombined with 
 *(result2)* was written to a directory as a file named *tidyData.txt*.
 
 
-Variables used in the run_Analysis.R script
-dataDescription - source data description
-dataUrl - URL for zip archive of source data
+#### Variables used in the run_Analysis.R script
+dataDescription - source data description. 
+dataUrl - URL for zip archive of source data  
 
-* activityLabels - six activity codes and corresponding activity names
-* features - feature names for xTest, xTrain
-* subjectTest - test set subject number from 1 to 30
-* xTest - test set feature measurements
-yTest - test set activity code from 1 to 6
-subjectTrain - train set subject number from 1 to 30
-xTrain - train set feature measurements
-yTrain - train set activity code from 1 to 6
-allTest - subjectTest, yTest, xTest combined by columns
-allTrain - subjectTrain, yTrain, xTrain combined by columns
-allData - allTest, allTrain combined by rows
-allDataMSD – allData with only columns about means and standard deviations
-splitData – allDataMSD split by subjectId and activityDescription variables
-result – the matrix with the column means for each measurement by subject and activity 
+activityLabels - six activity codes and corresponding activity names  
+features - feature names for xTest, xTrain  
+subjectTest - test set subject number from 1 to 30  
+xTest - test set feature measurements  
+yTest - test set activity code from 1 to 6  
+subjectTrain - train set subject number from 1 to 30  
+xTrain - train set feature measurements  
+yTrain - train set activity code from 1 to 6  
+allTest - subjectTest, yTest, xTest combined by columns  
+allTrain - subjectTrain, yTrain, xTrain combined by columns  
+allData - allTest, allTrain combined by rows  
+allDataMSD – allData with only columns about means and standard deviations  
+splitData – allDataMSD split by subjectId and activityDescription variables  
+result – the matrix with the column means for each measurement by subject and activity   
 result2 – the final tidy data set with appropriate variable names with means for each measurement for each subject for each activity
 
 Variables in the final tidy data set
