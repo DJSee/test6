@@ -8,17 +8,18 @@
 
 #### 1.Merge the training and test data sets into one data set
 
-The zip file containing the data was downloaded and unzipped. 
+The zip file containing the data was downloaded and unzipped.   
+The files in the resulting directory were read and referenced using descriptive variable names.  
+The subject information, activity labels, and measurements were combined for the test data. *(allTest)*. 
+The subject information, activity labels, and measurements were combined for the training data. *(allTrain)*. 
+The test and training data sets were combined together. *(allData)*. 
 
-The files in the resulting directory were read and referenced using descriptive variable names. 
-The subject information, activity labels, and measurements were combined for the test data. *(allTest)*
-The subject information, activity labels, and measurements were combined for the training data. *(allTrain)*
-The test and training data sets were combined together. *(allData)*
 
 
 #### 2.Extract only the measurements on the mean and standard deviation for each measurement
 
 A new data set was created in which measurement columns only on the mean and standard deviation were chosen by applying the select() function of the dplyr package to *(allData)* 
+
 The result was the data set *(allDataMSD)*.
 
 #### 3.Uses descriptive activity names to name the activities in the data set
@@ -28,13 +29,18 @@ This step occurred when the *(activityLabels)* data frame was merged with the *(
 #### 4.Appropriately labels the data set with descriptive variable names.
 
 This step was completed after step 5.
+
 The column names for the tidy data set, *(result2)*, were modified using the gsub() function and some simple regular expressions so that the names met R standards and were descriptive.
 
 #### 5.Creates a second, independent tidy data set with the average of each variable for each activity and subject
 The data frame *(allDataMSD)* was split by *(subjectId)* and *(activityDescription)* to create *(splitData)*.
-Then the colMeans() function was applied inside of the sapply() function to calculate the column means for all measurement columns. The output was named *(result)*.
+
+Then the colMeans() function was applied inside of the sapply() function to calculate the column means for all measurement columns. 
+
+The output was named *(result)*.
 
 *(result)* was a matrix that needed to be transposed so the measurement variables corresponded to columns. 
+
 Finally, the *(subjectId)* and *(activityId)* columns had to be recombined with *(result)* to produce the desired tidy data set which was named *(result2)*. 
 
 *(result2)* was written to a directory as a file named *tidyData.txt*.
