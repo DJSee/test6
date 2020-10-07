@@ -96,45 +96,45 @@ result2 – the final tidy data set with appropriate variable names with means f
 * frequencyBodyBodyAccelerometerJerkMagnitudeMean
 * frequencyBodyBodyGyroscopeMagnitudeMean
 * frequencyBodyBodyGyroscopeJerkMagnitudeMean
-timeBodyAccelerometerStdX
-timeBodyAccelerometerStdY
-timeBodyAccelerometerStdZ
-timeGravityAccelerometerStdX
-timeGravityAccelerometerStdY
-timeGravityAccelerometerStdZ
-timeBodyAccelerometerJerkStdX
-timeBodyAccelerometerJerkStdY
-timeBodyAccelerometerJerkStdZ
-timeBodyGyroscopeStdX
-timeBodyGyroscopeStdY
-timeBodyGyroscopeStdZ
-timeBodyGyroscopeJerkStdX
-timeBodyGyroscopeJerkStdY
-timeBodyGyroscopeJerkStdZ
-timeBodyAccelerometerMagnitudeStd
-timeGravityAccelerometerMagnitudeStd
-timeBodyAccelerometerJerkMagnitudeStd
-timeBodyGyroscopeMagnitudeStd
-timeBodyGyroscopeJerkMagnitudeStd
-frequencyBodyAccelerometerStdX
-frequencyBodyAccelerometerStdY
-frequencyBodyAccelerometerStdZ
-frequencyBodyAccelerometerJerkStdX
-frequencyBodyAccelerometerJerkStdY
-frequencyBodyAccelerometerJerkStdZ
-frequencyBodyGyroscopeStdX
-frequencyBodyGyroscopeStdY
-frequencyBodyGyroscopeStdZ
-frequencyBodyAccelerometerMagnitudeStd
-frequencyBodyBodyAccelerometerJerkMagnitudeStd
-frequencyBodyBodyGyroscopeMagnitudeStd
-frequencyBodyBodyGyroscopeJerkMagnitudeStd
+* timeBodyAccelerometerStdX
+* timeBodyAccelerometerStdY
+* timeBodyAccelerometerStdZ
+* timeGravityAccelerometerStdX
+* timeGravityAccelerometerStdY
+* timeGravityAccelerometerStdZ
+* timeBodyAccelerometerJerkStdX
+* timeBodyAccelerometerJerkStdY
+* timeBodyAccelerometerJerkStdZ
+* timeBodyGyroscopeStdX
+* timeBodyGyroscopeStdY
+* timeBodyGyroscopeStdZ
+* timeBodyGyroscopeJerkStdX
+* timeBodyGyroscopeJerkStdY
+* timeBodyGyroscopeJerkStdZ
+* timeBodyAccelerometerMagnitudeStd
+* timeGravityAccelerometerMagnitudeStd
+* timeBodyAccelerometerJerkMagnitudeStd
+* timeBodyGyroscopeMagnitudeStd
+* timeBodyGyroscopeJerkMagnitudeStd
+* frequencyBodyAccelerometerStdX
+* frequencyBodyAccelerometerStdY
+* frequencyBodyAccelerometerStdZ
+* frequencyBodyAccelerometerJerkStdX
+* frequencyBodyAccelerometerJerkStdY
+* frequencyBodyAccelerometerJerkStdZ
+* frequencyBodyGyroscopeStdX
+* frequencyBodyGyroscopeStdY
+* frequencyBodyGyroscopeStdZ
+* frequencyBodyAccelerometerMagnitudeStd
+* frequencyBodyBodyAccelerometerJerkMagnitudeStd
+* frequencyBodyBodyGyroscopeMagnitudeStd
+* frequencyBodyBodyGyroscopeJerkMagnitudeStd
 
-Activity labels
-WALKING (1)
-WALKING_UPSTAIRS (2)
-WALKING_DOWNSTAIRS (3)
-SITTING (4)
-STANDING (5)
-LAYING (6)
+#### Activity labels
+* WALKING (1)
+* WALKING_UPSTAIRS (2)
+* WALKING_DOWNSTAIRS (3)
+* SITTING (4)
+* STANDING (5)
+* LAYING (6)
 
