@@ -33,8 +33,10 @@ The column names for the tidy data set, *(result2)*, were modified using the gsu
 #### 5.Creates a second, independent tidy data set with the average of each variable for each activity and subject
 The data frame *(allDataMSD)* was split by *(subjectId)* and *(activityDescription)* to create *(splitData)*.
 Then the colMeans() function was applied inside of the sapply() function to calculate the column means for all measurement columns. The output was named *(result)*.
+
 *(result)* was a matrix that needed to be transposed so the measurement variables corresponded to columns. 
 Finally, the *(subjectId)* and *(activityId)* columns had to be recombined with *(result)* to produce the desired tidy data set which was named *(result2)*. 
+
 *(result2)* was written to a directory as a file named *tidyData.txt*.
 
 
